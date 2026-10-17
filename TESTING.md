@@ -25,3 +25,9 @@ comprobarlas. Para compilar sin publicar, ver «Desarrollo» en el README.
 - [ ] **Proyecto real.** Pasar el proyecto original del alumno (sus capítulos y su
       `referencias.yaml`) a esta plantilla en una carpeta aparte, y comprobar que
       sale como su PDF y que el recuento de palabras es razonable.
+- [ ] **Trabajo de ejemplo.** Leer el PDF de la plantilla de principio a fin: que no
+      haya «??» ni citas rotas, que las gráficas usen el mismo color para los puntos
+      y su curva, y que los números del texto (k, tiempos, 10.3 °C) coincidan con
+      las tablas.
+- [ ] **Datos desde el CSV.** Cambiar un valor en `Archivos/Datos/enfriamiento.csv`:
+      cambian a la vez la tabla del Anexo I y las dos gráficas.

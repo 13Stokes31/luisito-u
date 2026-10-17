@@ -1,12 +1,13 @@
 #import "@preview/luisito-u:0.1.0": *
 
-// Aquí configuras los datos de tu proyecto
+// Aquí configuras los datos de tu proyecto.
+// (El trabajo de ejemplo es inventado: sustituye los capítulos por los tuyos.)
 #show: proyecto.with(
-  titulo: "Las reliquias de la muerte",
-  autor: "Harry Potter",
-  supervisor: "Albus Dumbledore",
-  instituto: "Colegio Hogwarts de Magia y Hechicería",
-  lugar: "Escocia",
+  titulo: "¿Cuánto tarda en enfriarse un café?",
+  autor: "Lucía Martín Ortega y Daniel Ruiz Serrano",
+  supervisor: "Elena Gómez Prieto",
+  instituto: "IES de Ejemplo",
+  lugar: "Madrid",
   fecha: "Mayo 2026", // Cambia la fecha a la de entrega
   logo: image("Logo.svg", width: 3.5cm), // Cambia Logo.svg por el logo que necesites
   // Texto al pie de la portada: el premio o la convocatoria. Bórralo si no lo necesitas.

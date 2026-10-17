@@ -33,7 +33,14 @@ Se crea esta estructura:
 - `Logo.svg`: un logo de muestra. Cámbialo por el que necesites (o borra la línea
   `logo:` del `main.typ`).
 - `referencias.yaml`: la bibliografía (también vale un `.bib`).
-- `Archivos/`: un fichero por capítulo y la carpeta `Imágenes/`.
+- `Archivos/`: un fichero por capítulo, la carpeta `Imágenes/` y la carpeta `Datos/` con
+  el CSV de las medidas.
+
+Los capítulos traen un **trabajo de ejemplo inventado** («¿Cuánto tarda en enfriarse un
+café?») que usa casi todo lo que se puede hacer: citas bibliográficas, notas al pie,
+listas, recuadros, ecuaciones numeradas y citadas, tablas, imágenes, gráficas con
+`lilaq` leídas de un CSV, anexos y glosario. Cada fichero explica en comentarios
+cómo se hace cada cosa. Sustitúyelo por tu trabajo.
 
 ## Configuración
 
@@ -60,6 +67,10 @@ Todo se configura en el `#show: proyecto.with(...)` del `main.typ`:
 | `contar-palabras` | Muestra tras el índice las palabras del primer capítulo al último anexo | `false` |
 
 Cualquier pieza opcional se quita con `none` o `false`, o borrando su línea.
+
+**Logo.** El de la plantilla es una muestra. Pon el tuyo (en typst.app, súbelo al
+proyecto) y cambia el nombre en `logo: image("…")`. Los logos de universidades e
+instituciones no se pueden incluir en el paquete sin permiso de sus titulares.
 
 **Fuentes.** Por defecto, Libertinus Serif, que viene con Typst y está siempre,
 también en typst.app. El proyecto original usaba Times New Roman en el texto y

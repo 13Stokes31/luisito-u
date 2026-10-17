@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/13Stokes31/luisito-u"
 description = "Unofficial template for Spanish baccalaureate research projects submitted to science contests // Plantilla no oficial para proyectos de investigación de Bachillerato presentados a premios de ciencia."
 categories = ["report", "thesis"]
-keywords = ["proyecto", "investigación", "bachillerato", "premio", "spanish", "research"]
+keywords = ["proyecto", "investigación", "bachillerato", "premio", "spanish", "research", "Saint Louis University Madrid"]
 exclude = ["ROADMAP.md", "TESTING.md", "tests"]
 
 [template]
