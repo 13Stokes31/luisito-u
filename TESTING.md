@@ -31,3 +31,7 @@ comprobarlas. Para compilar sin publicar, ver «Desarrollo» en el README.
       las tablas.
 - [ ] **Datos desde el CSV.** Cambiar un valor en `Archivos/Datos/enfriamiento.csv`:
       cambian a la vez la tabla del Anexo I y las dos gráficas.
+- [ ] **Nota APA y borde.** En la Figura 3.1 (montaje), borde negro completo y debajo
+      «*Nota.* Elaboración propia.» en letra pequeña. La Figura 4.1 y la Tabla 4.2
+      también llevan nota. Al borrar la línea `<nota>` o el `box(stroke: …)`,
+      desaparecen sin romper nada.

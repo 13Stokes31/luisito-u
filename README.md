@@ -97,6 +97,25 @@ de ahí:
 En los capítulos, las figuras, tablas y ecuaciones se numeran por capítulo (Figura
 2.1, ecuación (3.1)…).
 
+## Figuras: borde y nota
+
+Las dos cosas son opcionales y se ponen a mano en cada figura (o tabla):
+
+```typst
+#figure(
+  [
+    #box(stroke: 1pt, image("Imágenes/foto.png", width: 80%))  // borde negro
+    #[Elaboración propia.] <nota>                            // nota debajo
+  ],
+  caption: [Título de la figura],
+)
+```
+
+- **Borde:** `box(stroke: 1pt, …)` enmarca la imagen en negro. Sin borde, basta `image(…)`.
+- **Nota:** el texto con la etiqueta `<nota>` sale debajo, en letra pequeña y con
+  «*Nota.*» delante, como pide APA. Sirve para la fuente («Elaboración propia»,
+  «Adaptado de…») o para aclaraciones. Admite citas (`@etiqueta`).
+
 ## Plantilla hermana: visillos-excelencia
 
 [visillos-excelencia](https://github.com/13Stokes31/visillos-excelencia) acepta
