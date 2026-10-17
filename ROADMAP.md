@@ -5,12 +5,11 @@ Lo que está por hacer o por decidir. Lo ya hecho pero sin comprobar está en
 
 ## Pendiente
 
-### Publicar en Universe
-Estado: **pendiente** (instalada como `@local/luisito-u:0.1.0`).
-Pasos según la receta de meshpad: crear el repo `13Stokes31/luisito-u` en GitHub,
-push, etiqueta `v0.1.0` (el README enlaza la miniatura a ella), copiar `lib.typ`,
-`LICENSE`, `README.md`, `typst.toml`, `thumbnail.png` y `template/` al fork
-`13Stokes31/packages` y abrir el PR `luisito-u:0.1.0`.
+### Publicar la 0.1.0 en Universe
+Estado: **PR abierto, falta el merge**. PR typst/packages#6141 enviado el
+2026-10-17 con los tres checks en verde; etiqueta `v0.1.0` en el repo. Si los
+revisores piden cambios, corregir, mover la etiqueta (`git tag -f` + push --force)
+y copiar los ficheros a la rama `luisito-u-0.1.0` del fork.
 
 ### Mantener a la par con visillos-excelencia
 Estado: **abierto**. Las dos plantillas comparten la configuración del `main.typ`
