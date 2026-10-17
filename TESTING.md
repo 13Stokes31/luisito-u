@@ -1,7 +1,21 @@
 # TESTING — luisito-u
 
 Comprobaciones manuales: cosas ya hechas que falta verificar a mano. Se marcan al
-comprobarlas. Para compilar sin publicar, ver «Desarrollo» en el README.
+comprobarlas.
+
+## Probar sin publicar
+
+Para probar la plantilla sin publicarla, se instala como paquete local:
+
+```bash
+mkdir -p ~/.local/share/typst/packages/local/luisito-u
+ln -sfn ~/Proyectos/luisito-u ~/.local/share/typst/packages/local/luisito-u/0.1.0
+typst init @local/luisito-u:0.1.0 prueba
+```
+
+El `main.typ` creado así importa `@preview/luisito-u:0.1.0`: cambia `@preview` por
+`@local` mientras no esté publicada. Las comprobaciones manuales están en
+`TESTING.md` y lo pendiente, en `ROADMAP.md`.
 
 ## 0.1.0
 

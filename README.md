@@ -128,20 +128,6 @@ exactamente la misma configuración con otra portada (la de los proyectos del
 Bachillerato de Excelencia). Un proyecto escrito con una se pasa a la otra
 cambiando solo la línea del `#import`.
 
-## Desarrollo
-
-Para probar la plantilla sin publicarla, se instala como paquete local:
-
-```bash
-mkdir -p ~/.local/share/typst/packages/local/luisito-u
-ln -sfn ~/Proyectos/luisito-u ~/.local/share/typst/packages/local/luisito-u/0.1.0
-typst init @local/luisito-u:0.1.0 prueba
-```
-
-El `main.typ` creado así importa `@preview/luisito-u:0.1.0`: cambia `@preview` por
-`@local` mientras no esté publicada. Las comprobaciones manuales están en
-`TESTING.md` y lo pendiente, en `ROADMAP.md`.
-
 ## Licencia
 
 MIT.
