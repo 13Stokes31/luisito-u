@@ -9,7 +9,7 @@
   lugar: "Escocia",
   fecha: "Mayo 2026", // Cambia la fecha a la de entrega
   logo: image("Logo.svg", width: 3.5cm), // Cambia Logo.svg por el logo que necesites
-  // Texto al pie de la portada. Bórralo para dejar el de la plantilla, o pon none para quitarlo.
+  // Texto al pie de la portada: el premio o la convocatoria. Bórralo si no lo necesitas.
   convocatoria: [PROYECTO PRESENTADO PARA EL \ *PREMIO NACIONAL DE CIENCIA Y TECNOLOGÍA PARA ESTUDIANTES DE BACHILLERATO*],
   // fuente: "Libertinus Serif", // Por defecto, Times New Roman (o un clon libre si no la tienes)
   // tamano-fuente: 12pt,     // Descomenta para ajustar el tamaño del texto

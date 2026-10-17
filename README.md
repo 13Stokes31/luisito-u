@@ -47,7 +47,7 @@ Todo se configura en el `#show: proyecto.with(...)` del `main.typ`:
 | `instituto` | Centro educativo | — |
 | `lugar`, `fecha` | Si se ponen, salen en la portada como «Lugar, fecha» | `none` |
 | `logo` | Imagen al pie de la portada, p. ej. `image("Logo.svg", width: 3.5cm)` | `none` |
-| `convocatoria` | Texto al pie de la portada (`none` para quitarlo) | el del premio |
+| `convocatoria` | Texto al pie de la portada, p. ej. `[Proyecto presentado para el \ *Premio …*]` | `none` |
 | `fuente` | Tipografía del texto | Times New Roman |
 | `fuente-portada` | Tipografía de la portada | Calibri |
 | `tamano-fuente` | Tamaño del texto; los títulos escalan con él | `12pt` |

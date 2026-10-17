@@ -19,12 +19,6 @@ anexos o contador hay que llevarlo a las dos. Las diferencias a propósito son l
 portada, las fuentes, los tamaños de los títulos, la sangría y que luisito-u no
 lleva cabecera con el capítulo.
 
-### Texto por defecto de la convocatoria
-Estado: **por decidir**. Ahora es «Proyecto presentado para el Premio Nacional de
-Ciencia y Tecnología para Estudiantes de Bachillerato», sin número de edición (el
-original decía «XIII»), para que no caduque cada año. Comprobar el nombre exacto
-en las bases del premio.
-
 ### Versión mínima de Typst sin comprobar
 Estado: **abierto**. `compiler = "0.13.0"`, pero solo se ha compilado con 0.15.
 

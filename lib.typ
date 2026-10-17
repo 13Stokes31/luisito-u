@@ -87,8 +87,7 @@
   lugar: none,
   fecha: none,
   logo: none,
-  // Texto al pie de la portada (none para quitarlo)
-  convocatoria: [PROYECTO PRESENTADO PARA EL \ *PREMIO NACIONAL DE CIENCIA Y TECNOLOGÍA PARA ESTUDIANTES DE BACHILLERATO*],
+  convocatoria: none,      // texto al pie de la portada, p. ej. el premio al que se presenta
   // Times New Roman y Calibri, o sus clones libres si no están instaladas
   fuente: ("Times New Roman", "Liberation Serif", "Libertinus Serif"),
   fuente-portada: ("Calibri", "Carlito", "Libertinus Serif"),
