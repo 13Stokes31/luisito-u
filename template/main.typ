@@ -11,7 +11,9 @@
   logo: image("Logo.svg", width: 3.5cm), // Cambia Logo.svg por el logo que necesites
   // Texto al pie de la portada: el premio o la convocatoria. Bórralo si no lo necesitas.
   convocatoria: [PROYECTO PRESENTADO PARA EL \ *PREMIO NACIONAL DE CIENCIA Y TECNOLOGÍA PARA ESTUDIANTES DE BACHILLERATO*],
-  // fuente: "Libertinus Serif", // Por defecto, Times New Roman (o un clon libre si no la tienes)
+  // Para el aspecto del proyecto original, descomenta estas dos líneas (si tienes esas fuentes):
+  // fuente: "Times New Roman",
+  // fuente-portada: "Calibri",
   // tamano-fuente: 12pt,     // Descomenta para ajustar el tamaño del texto
   // interlineado: 0.65em,       // Descomenta para ajustar el interlineado
   // color-acento: rgb("#279985"), // Descomenta para cambiar el color de los títulos

@@ -10,8 +10,8 @@ comprobarlas. Para compilar sin publicar, ver «Desarrollo» en el README.
       ejemplo sin errores.
 - [ ] **Portada fiel al proyecto original.** Comparar con el PDF del alumno (carpeta
       «Plantilla Universidad San Luis» en Descargas): título grande en mayúsculas,
-      Autores/Tutor/Centro abajo a la izquierda, convocatoria y logo al pie, en Calibri.
-- [ ] **Texto en Times New Roman** con sangría de primera línea y títulos de capítulo
+      Autores/Tutor/Centro abajo a la izquierda, convocatoria y logo al pie.
+- [ ] **Texto** con sangría de primera línea y títulos de capítulo
       en verde; páginas iniciales con el título centrado en versalitas.
 - [ ] **Anexos.** «Anexo I. Tablas de medidas», «Tabla I.1», y en el Capítulo 3 las
       citas «Anexo I» y «Anexo II» enlazan a su anexo.
@@ -19,10 +19,9 @@ comprobarlas. Para compilar sin publicar, ver «Desarrollo» en el README.
       trabajo: 5695 palabras» debajo del índice.
 - [ ] **Intercambio con visillos-excelencia.** El `main.typ` de visillos compila con
       luisito-u cambiando solo el import, y al revés.
-- [ ] **Fuentes en typst.app** (cuando esté publicada). En el editor, botón «Ag»:
-      ¿están Times New Roman, Liberation Serif, Calibri o Carlito? Si no está ninguna
-      de una pareja, saldrá Libertinus Serif y avisos amarillos; decidir entonces si
-      se cambia la lista de `fuente` y `fuente-portada`.
+- [ ] **Fuentes.** Por defecto todo sale en Libertinus Serif y sin avisos. Al
+      descomentar `fuente: "Times New Roman"` y `fuente-portada: "Calibri"` en el
+      `main.typ`, el texto sale en Times y la portada en Calibri.
 - [ ] **Proyecto real.** Pasar el proyecto original del alumno (sus capítulos y su
       `referencias.yaml`) a esta plantilla en una carpeta aparte, y comprobar que
       sale como su PDF y que el recuento de palabras es razonable.

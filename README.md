@@ -48,8 +48,8 @@ Todo se configura en el `#show: proyecto.with(...)` del `main.typ`:
 | `lugar`, `fecha` | Si se ponen, salen en la portada como «Lugar, fecha» | `none` |
 | `logo` | Imagen al pie de la portada, p. ej. `image("Logo.svg", width: 3.5cm)` | `none` |
 | `convocatoria` | Texto al pie de la portada, p. ej. `[Proyecto presentado para el \ *Premio …*]` | `none` |
-| `fuente` | Tipografía del texto | Times New Roman |
-| `fuente-portada` | Tipografía de la portada | Calibri |
+| `fuente` | Tipografía del texto | Libertinus Serif |
+| `fuente-portada` | Tipografía de la portada (`none`: la del texto) | `none` |
 | `tamano-fuente` | Tamaño del texto; los títulos escalan con él | `12pt` |
 | `interlineado` | Interlineado | `0.65em` |
 | `color-acento` | Color de los títulos de capítulo | `rgb("#279985")` |
@@ -61,9 +61,12 @@ Todo se configura en el `#show: proyecto.with(...)` del `main.typ`:
 
 Cualquier pieza opcional se quita con `none` o `false`, o borrando su línea.
 
-**Fuentes.** Si Times New Roman o Calibri no están instaladas, la plantilla usa sus
-clones libres (Liberation Serif y Carlito), que ocupan lo mismo, y si tampoco están,
-Libertinus Serif. Typst avisará de las que no encuentre; son avisos, no errores.
+**Fuentes.** Por defecto, Libertinus Serif, que viene con Typst y está siempre,
+también en typst.app. El proyecto original usaba Times New Roman en el texto y
+Calibri en la portada: para ese aspecto, pon `fuente: "Times New Roman"` y
+`fuente-portada: "Calibri"`. Si no las tienes, Typst avisa y usa Libertinus (o sus
+clones libres, Liberation Serif y Carlito, si los tienes instalados y los añades:
+`fuente: ("Times New Roman", "Liberation Serif")`).
 
 **Contador de palabras.** Cuenta el texto de los capítulos y los anexos, títulos
 incluidos. No cuenta la portada, las páginas iniciales, el índice, la bibliografía,

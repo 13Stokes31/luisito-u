@@ -88,9 +88,8 @@
   fecha: none,
   logo: none,
   convocatoria: none,      // texto al pie de la portada, p. ej. el premio al que se presenta
-  // Times New Roman y Calibri, o sus clones libres si no están instaladas
-  fuente: ("Times New Roman", "Liberation Serif", "Libertinus Serif"),
-  fuente-portada: ("Calibri", "Carlito", "Libertinus Serif"),
+  fuente: "Libertinus Serif", // viene con Typst: está siempre, también en typst.app
+  fuente-portada: none,       // fuente de la portada; con none, la misma del texto
   tamano-fuente: 12pt,
   interlineado: 0.65em,
   color-acento: rgb("#279985"),
@@ -142,7 +141,8 @@
 
   // Portada: título grande, datos abajo a la izquierda y la convocatoria al pie
   {
-    set text(11pt, font: fuente-portada)
+    set text(11pt)
+    set text(font: fuente-portada) if fuente-portada != none
     v(4fr)
     align(center, text(36pt, upper(titulo)))
     v(5.6fr)
